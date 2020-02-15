@@ -118,7 +118,7 @@ final class ConfigResolver
             'min-complexity',
             'min-architecture',
             'min-style',
-            'disable-security-check'
+            'disable-security-check',
         ];
         foreach ($requirements as $requirement) {
             if ($input->hasParameterOption('--'.$requirement)) {
