@@ -39,8 +39,8 @@ final class ConfigResolver
      * Merge the given config with the specified preset.
      *
      * @param array<string, string|array> $config
-     *
      * @param \Symfony\Component\Console\Input\InputInterface $input
+     *
      * @return Configuration
      */
     public static function resolve(array $config, InputInterface $input): Configuration
